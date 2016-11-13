@@ -1,0 +1,20 @@
+﻿.ind{float:left; width:980px;}
+
+.ind-item{float:left; width:938px; margin-top:20px; padding-top:20px; padding-left:20px; padding-right:20px; padding-bottom:20px; border:1px solid #EEEEEE; background:#FFFFFF;}
+
+/*分块介绍*/
+/*动态*/
+.ind-item-dy{float:left; width:577px; font-size:12px; color:#4F4F4F; border-right:1px dashed #E0E0E0; padding-right:30px;}
+.ind-item-dy-top{float:left; width:574px; padding-left:3px; font-size:16px; font-weight:800; border-bottom:1px dashed #E0E0E0; line-height:25px; margin-bottom:5px; font-family:"黑体"}
+.ind-item-dy-li{float:left; width:562px; padding-left:15px; background-image:url(../../img/arrow_1.gif); background-repeat:no-repeat; background-position:3px 6px; font-family:"宋体";}
+.ind-item-dy-li a{color:#333333;}
+/*运行状态*/
+.ind-item-ru{float:left; width:300px; padding-left:30px; font-size:12px; color:#4F4F4F;}
+.ind-item-ru-top{float:left; width:297px; padding-left:3px; font-size:16px; font-weight:800; border-bottom:1px dashed #E0E0E0; line-height:25px; margin-bottom:5px; font-family:"黑体"}
+.ind-item-ru-li{float:left; width:297px; padding-left:3px; font-family:"宋体";}
+
+
+
+.ind-item-le{float:left;}
+/*中间广告*/
+.ind_ad{float:left; width:100%; margin-top:20px; background:#146192; font-size:36px}
