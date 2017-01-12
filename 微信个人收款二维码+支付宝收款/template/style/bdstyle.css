@@ -1,0 +1,36 @@
+/**
+  **************************************************************************************************
+  **********  bbs.sasadown.cn WAP版官方正式版  *****  官方正版 *** 版权所有 *** 盗版必究  **********
+  **********------------------------------------------------------------------------------**********
+  ****** 官方网站：http://bbs.sasadown.cn/  *****  bbs.sasadown.cn ********
+  **************************************************************************************************
+*/
+*{padding:0;margin:0;}body{font:14px Microsoft YaHei,\5FAE\8F6F\96C5\9ED1,SimSun,\5B8B\4F53,Arial,Verdana;color:#000;text-align:left;}a:link,a:visited{color:#66C2FF;text-decoration:none;}a:hover{color:#F00;text-decoration:underline;}input,select,textarea{font:100% Microsoft YaHei,\5FAE\8F6F\96C5\9ED1,SimSun,\5B8B\4F53,Arial,Verdana;}em{font-style:normal;color:#F00;margin-right:5px;}img{border:0 none;vertical-align:middle;}.red{color:#F00;}#bdorder{margin:0 auto;}.bdwarp{width:auto;height:100%;}.bdorderl{float:left;display:inline;overflow:hidden;width:65%;height:100%;}.bdorderr{float:left;display:inline;overflow:hidden;width:35%;height:100%;}.bdforml{width:100%;}.bdformr{width:100%;}.bdrxian{width:auto;height:auto;overflow:hidden;_height:100%;}.bdtitle{margin-bottom:10px;padding:8px 0 6px;}.bdwarp label.bdbdxx{
+	float: left;
+	display: inline;
+	overflow: hidden;
+	width: 25%;
+	_width: 18%;
+	text-align: right;
+	padding-right: 2%;
+}.bddxbox,.bdxlbox,.bdtextbox,.bdtext2box,.bdtext3box,.paysm{
+	float: left;
+	display: inline;
+	overflow: hidden;
+	width: 70%;
+	_width: 78%;
+}.bddxbox,.bdtext2box,.bdtext3box{line-height:1.5em;}.bdbdbox{float:left;width:100%;margin-bottom:10px;*margin-bottom:7px;}.bddxbox label{margin-left:6px;margin-right:8px;cursor:pointer;}.bdtextbox input{width:92%;font-size:16px;color:#666;padding:3px 5px;_padding:2px 5px;background:#FCFCFC;}.bdtext3box #showprice{clear:both;display:inline;font-family:Arial,Verdana;font-size:14px;font-weight:bold;color:#F60;margin:0 5px;}.bdxlbox select.bdcpxl{
+	font-size: 16px;
+	height: 28px;
+	border: 1px solid #a0a0a0;
+	background: #FCFCFC;
+	width: 97%;
+}.bdxlbox select.bddqxl{
+	width: 30%;
+	height: 26px;
+	margin-right: 6px;
+	border: 1px solid #a0a0a0;
+}.paysm{font-size:12px;color:#666;padding-left:21%;line-height:1.6em;}.paysm p{display:block;float:left;width:92%;padding:2px 5px;_margin-left:-3px;text-align:center;border:1px dotted #CCC;background:#FFFFE6;}.bdtext2box textarea{width:92%;height:40px;padding:4px 5px;background:#FFF;}.bdtext3box input{width:50px;font:16px Arial;color:#666;font-weight:bold;text-align:center;vertical-align:middle;margin-right:8px;padding:4px 5px 3px;background:#FFF;}.bdtext3box img#bdcode{width:70px;height:29px;cursor:pointer;}.bdtext3box a{font-size:12px;margin-left:6px;}.bdsubbox{width:100%;float:left;text-align:center;padding-bottom:10px;}.bdsubbox input{width:200px;height:36px;line-height:36px;color:#FFF;font-size:18px;vertical-align:middle;cursor:pointer;border:0;}#bdfahuo{width:90%;font-size:12px;line-height:1.8em;color:#666;padding:0 5%;}
+#demo{ background:#f5fdb9; line-height:24px; font-size:13px;}
+.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.428571429;color:#555;vertical-align:middle;background-color:#fff;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6)}.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{cursor:not-allowed;background-color:#eee}textarea.form-control{height:auto}.form-group{margin-bottom:15px}
+/*///////////////////////////////////////// BDORDERCSSEND ////////////////////////////////////////*/

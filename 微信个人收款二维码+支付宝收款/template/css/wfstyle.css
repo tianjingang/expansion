@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+  /**
+  **************************************************************************************************
+  **********  bbs.sasadown.cn WAP版官方正式版  *****  官方正版 *** 版权所有 *** 盗版必究  **********
+  **********------------------------------------------------------------------------------**********
+  * 官方网站：http://bbs.sasadown.cn/ 官方店铺：http://bbs.sasadown.cn/  *  官方店铺QQ：151619143 请认准再购买 *
+  **************************************************************************************************
+*/
+
+*{padding:0;margin:0;}body{font:14px Microsoft YaHei,\5FAE\8F6F\96C5\9ED1,SimSun,\5B8B\4F53,Arial,Verdana;color:#000;text-align:left;}a:link,a:visited{color:#66C2FF;text-decoration:none;}a:hover{color:#F00;text-decoration:underline;}input,select,textarea{font:100% Microsoft YaHei,\5FAE\8F6F\96C5\9ED1,SimSun,\5B8B\4F53,Arial,Verdana;}em{font-style:normal;color:#F00;margin-right:5px;}img{border:0 none;vertical-align:middle;}.red{color:#F00;}#wforder{min-width:320px;margin:0 auto;}.wfwarp{width:auto;height:100%;}.wftitle{height:36px;line-height:36px;color:#FFF;font-size:16px;vertical-align:middle;margin-bottom:10px;padding-left:8px;}.wfwarp label.wfbdxx{float:left;display:inline;overflow:hidden;width:24%;_width:23%;text-align:right;padding-right:2%;}.wfwarp label.wfbdxxcp{float:left;display:block;width:95%;height:20px;line-height:20px;padding-left:5%;}.wfdxbox,.wfxlbox,.wftextbox,.wftext2box,.wftext3box{float:left;display:inline;overflow:hidden;width:74%;_width:73%;}.wfdxboxcp{float:left;display:block;width:90%;padding:0 5%;margin-top:3px;margin-bottom:5px;font-weight:bold;font-size:14px;line-height:1.7em;}.wfdxbox,.wftext2box,.wftext3box{line-height:1.5em;}.wfbdbox{float:left;width:100%;margin-bottom:10px;*margin-bottom:7px;}.paysm{font-size:12px;color:#666;padding-left:21%;line-height:1.6em;}.paysm p{display:block;float:left;width:92%;padding:2px 5px;_margin-left:-3px;text-align:center;border:1px dotted #CCC;background:#FFFFE6;}.wfdxboxcp label{margin-left:6px;cursor:pointer;}.wfdxbox label{margin-left:6px;cursor:pointer;}.wftextbox input{width:90%;font-size:16px;color:#666;padding:2px 5px;border:1px solid #E0E0E0;background:#FCFCFC;}.wftext3box #showprice{clear:both;display:inline;font-family:Arial,Verdana;font-size:14px;font-weight:bold;color:#F60;margin:0 5px;}.wfxlbox select.wfcpxl{font-size:16px;max-width:95%;height:25px;color:#666;border:1px solid #E0E0E0;background:#FCFCFC;}.wfxlbox select.wfdqxl{width:30.15%;height:22px;color:#666;margin-right:6px;border:1px solid #E0E0E0;background:#FCFCFC;}.wftext2box textarea{width:90%;height:40px;color:#666;padding:4px 5px;border:1px solid #E0E0E0;background:#FCFCFC;}.wftext3box input{width:35px;font:16px Arial;color:#666;font-weight:bold;text-align:center;vertical-align:middle;margin-right:8px;padding:2px 5px;border:1px solid #E0E0E0;background:#FCFCFC;}.wftext3box img#wfcode{cursor:pointer;}.wftext3box a{font-size:12px;margin-left:6px;}.wfsubbox{width:100%;float:left;text-align:center;padding-bottom:10px;}.wfsubbox input{width:95%;height:32px;line-height:32px;color:#FFF;font-size:16px;vertical-align:middle;cursor:pointer;border:0;}
+
+
+
+.wffhwarp{width:95%;height:90px;padding:10px 0 0;margin:0 2.5% 10px;background:#EFEFEF;}
+
+#wffahuo{width:92%;height:80px;font-size:12px;line-height:1.8em;margin:0 4%;}
+
+/*///////////////////////////////////////// WFORDERCSSEND ////////////////////////////////////////*/

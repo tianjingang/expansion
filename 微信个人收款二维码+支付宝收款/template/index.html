@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<title>在线支付系统</title>
+<script type="text/javascript" src="js/bddq.js" charset="gb2312"></script>
+<link href="style/bdstyle.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+    body, a {
+
+    color: #444;
+
+	margin:0px;
+
+}
+
+.block {
+
+    border: 1px solid #cccccc;
+
+    border-radius: 9px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+
+    margin: 5px;
+
+    overflow: hidden;
+
+}
+
+
+
+#book .text, #book .btnn, #book .list, #book h3 {
+
+    display: block;
+
+    margin: auto auto 10px;
+
+    width: 95%;
+
+}
+
+#book h3 {
+
+    line-height: 1em;
+
+}
+
+#book .list {
+
+    border-top: 1px solid #e0e0e0;
+
+}
+
+#book .list a {
+
+    display: block;
+
+    padding: 1%;
+
+}
+
+.t1 {
+
+    font-size: 30px;
+
+}
+
+.tc {
+
+    text-align: center;
+
+}
+
+
+
+
+
+#book .text, #book .btnn, #book .list, #book h3 {
+	display: block;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	width: 95%;
+}
+
+input.text, textarea.text,select.text {
+
+    border: 1px solid #cccccc;
+
+    border-radius: 0.5em;
+
+    display: block;
+
+    font-size: 16px;
+
+    padding: 0.5em 0;
+
+}
+
+
+.bar_b {
+display:block;
+    background: linear-gradient(#ff8800, #ff8800) repeat scroll 0 0 #ff4400;
+
+    color: #ffffff;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8800', endColorstr='#ff8800',GradientType=1); 
+}
+
+.btn_4 {
+
+    border: 1px solid #ff4400;
+
+    font-size: 20px;
+
+}
+
+.btnn, .btn_group {
+
+    display: inline-block;
+
+    overflow: hidden;
+
+    vertical-align: middle;
+
+}
+
+.btnn {
+
+    border-radius: 0.3em;
+
+    cursor: pointer;
+
+    height: 2em;
+
+    line-height: 2em;
+
+    padding: 0 1em;
+
+    text-align: center;
+
+    text-decoration: none !important;
+
+}
+
+.t4 {
+
+    font-size: 16px;
+
+}
+
+
+
+.butzxdg {
+
+    background:#ff8800;
+
+    border: 1px solid #ff4400;
+
+    border-radius: 0.3em;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    height: 2em;
+
+    line-height: 2em;
+
+    overflow: hidden;
+
+    padding: 0 1em;
+
+    text-align: center;
+
+    text-decoration: none !important;
+
+    vertical-align: middle;
+
+}
+
+.butmfzx {
+
+    background:#0c8502;
+
+    border: 1px solid #4eb810;
+
+    border-radius: 0.3em;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    height: 2em;
+
+    line-height: 2em;
+
+    overflow: hidden;
+
+    padding: 0 1em;
+
+    text-align: center;
+
+    text-decoration: none !important;
+
+    vertical-align: middle;
+
+}
+
+
+</style>
+</head>
+<body>
+<div id="bdorder">
+    <div class="bdwarp">
+    
+        <form id="bdform" name="bdform" action="../bdorder.php" method="post" onSubmit="return postcheck()" target="_parent">
+         <input type="hidden" value="" name="referer" id="referer">
+                <input type="hidden" value="" name="url" id="url">
+                <input type="hidden" value="" name="purl" id="purl">
+        <input type="hidden" name="bdproduct"  id="tempString"  />
+        <input type="hidden" name="bdprice" value="580" />
+        <input type="hidden" name="bdpay" value="货到付款" />
+        <div id="book" class="clearfix bar_a block">
+        <h3 class="t1 tc">
+           会员充值及商品购买</h3>
+		       <h3 class="t4">
+            选择产品：</h3>
+		        
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box1" value="月VIP组 30元" alt="30" onClick="checkbox()"/><label for="a1" style="font-size: 18px">月VIP组 30元</label></td>
+    </tr>
+    <tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box2" value="季度VIP组 50元" alt="50" onClick="checkbox()"/><label for="a2" style="font-size: 18px">季度VIP组 50元</label> </td>
+    </tr>
+    <tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box3" value="年VIP组 100元" alt="100" onClick="checkbox()"/><label for="a3" style="font-size: 18px">年VIP组 100元</label></td>
+    </tr>
+    <tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box4" value="永久VIP组 360元" alt="360" onClick="checkbox()"/><label for="a4" style="font-size: 18px">永久VIP组 360元</label></td>
+    </tr>
+    <tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box4" value="积分金钱充值10元" alt="10" onClick="checkbox()"/><label for="a4" style="font-size: 18px">积分金钱充值10元</label></td>
+    </tr>
+	<tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box4" value="源码或者技术费单价100元" alt="100" onClick="checkbox()"/><label for="a4" style="font-size: 18px">源码或者技术费单价100元(具体价格在订购数量处修改)</label></td>
+    </tr>
+	<!--<tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box4" value="一元云购v9源码" alt="1988" onClick="checkbox()"/><label for="a4" style="font-size: 18px">一元云购v9源码</label></td>
+    </tr>
+	<tr>
+      <td width="3%" height="35">&nbsp;</td>
+      <td width="97%"><input type="checkbox" name="box" id="box4" value="一元云购时时彩源码" alt="1688" onClick="checkbox()"/><label for="a4" style="font-size: 18px">一元云购时时彩源码</label></td>
+    </tr>-->
+	
+  </tbody>
+</table>
+<br>
+               
+           
+<h3 class="t4">订购数量：</h3>	
+  <input name="bdmun" id="bdmun" size="30"  onChange="priced()"  placeholder="数量" class="text" >
+ <h3 class="t4">姓名（会员名）：</h3>
+ <input name="bdname" id="name" size=30 placeholder="在论坛的会员名" class="text" >
+ <h3 class="t4">电话（QQ）：</h3>	
+                <input name="bdmob" id="mob" size="30" placeholder="QQ号码" class="text" >
+ <!--<h3 class="t4">收货邮箱：</h3>	
+                <input name="bdaddress" id="address" size="30" placeholder="购买源码请填写收货邮箱，积分充值和会员开通可不填" class="text" > --> 
+ <h3 class="t4">备注留言：</h3>	                    
+                <textarea name="bdguest" cols="48" rows="3" placeholder="购买源码请填写收货邮箱，积分充值和会员开通可不填" class="text"></textarea>
+                                 <h3 class="t4">付款方式：</h3>	                    
+                <select name="bdpay" id="bdpay" class="text" >
+  <option selected value="微信支付" title="微信支付">微信支付</option>
+
+                            <option value="支付宝支付" title="支付宝付款">支付宝付款</option>
+                           <!-- <option value="货到付款" title="货到付款">货到付款</option>
+
+                            <option value="银行汇款" title="联系客服索要打款账号">银行汇款</option> -->  </select>  
+                <input type="submit" name="bdsubmit" value='提交订单' class="btnn btn_4 bar_b" >
+				
+				<br/>
+				<br/>
+ 
+<h3 class="t4 tc warn">
+<div align="center">在线客服QQ：000000
+<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=151619143&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:151619143:51" alt="点击这里给我发消息" title="点击这里给我发消息"/><a  href="http://www.tlcodes.com/"  target="blank"> 点开有惊喜</a></a></div>
+</h3>
+</div>
+
+        <div style="clear:both;"></div></form>
+    </div>
+</div>
+<script>
+function priced(){
+
+   var bdproduct=document.bdform.bdprice.value;
+
+    if(document.bdform.bdmun.value==""||document.bdform.bdmun.value==0){	
+
+		var bdmun=1;
+
+	}
+
+	else{
+
+		var bdmun=document.bdform.bdmun.value;
+
+	}	
+
+	var bdprice=bdproduct*bdmun;
+
+	document.bdform.bdprice.value=bdprice;
+
+	document.getElementById("showprice").innerHTML=bdprice;
+
+}
+</script>
+ <script>
+    function checkbox()
+{
+	var bdmun=0;
+
+	var bdprice=0;	
+
+	var obj=document.getElementsByName("box");
+
+    for(var i=0;i<obj.length;i++){
+
+		if(obj[i].checked){
+
+			bdmun++;
+
+			bdprice+=parseInt(obj[i].alt);
+
+		}
+
+	}
+	
+
+	document.bdform.bdmun.value=bdmun;
+
+	document.bdform.bdprice.value=bdprice;
+
+	var str=document.getElementsByName("box");
+var objarray=str.length;
+var chestr="";
+for (i=0;i<objarray;i++)
+{  if(str[i].checked == true)
+  {
+   chestr+=str[i].value+",";
+  }
+}
+if(chestr == "")
+{
+  alert("请选择中意的产品！");
+  
+}
+else
+{
+  document.bdform.bdproduct.value =chestr;
+}
+
+}
+
+</script>
+<script type="text/javascript" src="js/bdbd.js"></script>
+
+
+
+</body>
+</html>
